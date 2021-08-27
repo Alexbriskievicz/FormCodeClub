@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <fieldset id="a003">
+            <legend> Ficha de Cadastro </legend>
+            <label for="name">Nome</label><br>
+            <input type="text" nome="name" id="name">
+            
+            <br><br><label for="email">Email</label><br>
+            <input type="email" nome="email" id="email"><br>
+
+            <br><label for="idade">Idade</label><br>
+            <input type="number" nome="idade" id="idade" min="12"><br>
+
+            <br><label for="Data-de-Nascimento">Data de Nascimento</label><br>
+            <input type="date" nome="Data-de-Nascimento" id="Data-de-Nascimento"><br>
+
+            <p> Onde você possui conta: </p>
+             <input type="checkbox" /> Instagram
+             <input type="checkbox" /> Facebook
+             <input type="checkbox" /> LinkedIn
+
+            <p> Sexo </p>
+            <input type="radio" /> Masculino
+            <input type="radio" /> Feminino
+
+           <br><br><label for="Cor-dos-Olhos"> Cor dos Olhos </label>
+           <input type="color" name="Cor-dos-Olhos" id="Cor-dos-Olhos">
+
+           <br><br><label for="biografia"> Biografia </label><br>
+           <textarea name="biografia" id="biografia"></textarea>
+
+           <br><br><label for="Foto-de-Perfil"> Foto de Perfil</label><br>
+           <input type="file" accept="image/*">
+
+           <br><br><label for="Telefone"> Telefone </label><br>
+
+           <br><br><label for="Link-Linkedin"></label> Link do Perfil do LinkedIn </label><br>
+           <input type="url" name="Link-Linkedin">
+
+           
+           <br><br><label for="Senha"></label> Senha </label><br>
+           <input type="password" name="Senha" minlength="6" maxlength="8">
+
+           <br><br><button type="submit" value="meu-botao"> Enviar Dados </button>
+           <button type="reset" value="meu-botao1"> Limpar </button>
+        </fieldset>
+    </form>
+</body>
+</html>
